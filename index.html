@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, compatibility, and viewport settings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Form for registration with phone input -->
+    <form id="register" action="" method="get">
+        <!-- Input field for phone number with a maximum length of 15 characters -->
+        <input type="text" id="phone" name="the-phone" maxlength="15" />
+        <!-- Submit button for the form -->
+        <input type="submit" value="Register" />
+    </form>
+
+    <!-- Container for tasks -->
+    <div class="container">
+        <div class="form">
+            <!-- Input field for adding a task -->
+            <input type="text" class="input" />
+            <!-- Button to add a task -->
+            <input type="submit" class="add" value="add task" />
+        </div>
+        <!-- Div to display tasks -->
+        <div class="tasks"></div>
+    </div>
+
+    <!-- Another form with a single text input -->
+    <form action="">
+        <input type="text" class="name" />
+    </form>
+
+    <!-- Unordered list with items having different data-color attributes -->
+    <ul class="exp">
+        <li class="active" data-color="red"></li>
+        <li data-color="green"></li>
+        <li data-color="blue"></li>
+        <li data-color="black"></li>
+    </ul>
+
+    <!-- Div for experiment section -->
+    <div class="experiment"></div>
+
+    <!-- Button to scroll to the top -->
+    <button class="up">top</button>
+
+    <!-- Div displaying a count -->
+    <div class="counting">30</div>
+
+    <!-- Button element -->
+    <button class="btn">button</button>
+
+    <!-- Form with username and age inputs -->
+    <form action="">
+        <!-- Input field for username with a placeholder -->
+        <input type="text" name="username" placeholder="Max 10 Char Only" />
+        <!-- Input field for age with a placeholder -->
+        <input type="text" name="age" placeholder="Can't be empty" />
+        <!-- Submit button for the form -->
+        <input type="submit" value="Submit Data" />
+    </form>
+
+    <!-- Div with nested elements and comments -->
+    <div><!-- Abram -->Hello Div<p>Hello P</p><span>Hello Span</span><!-- Comment -->Hello</div>
+
+    <!-- Div with an ID and nested elements -->
+    <div id="my-div">
+        <!-- Comment -->
+        <div class="my-child-div">
+            <span class="my-span">
+                <!-- Paragraph with data-src attribute -->
+                <p data-src="">Hello from test html file</p>
+            </span>
+        </div>
+        <!-- Comment -->
+    </div>
+
+    <!-- Unordered list with active and inactive items -->
+    <ul>
+        <li class="active">One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <!-- Div with multiple child divs -->
+    <div class="content">
+        <div>Div One</div>
+        <div>Div Two</div>
+        <div>Div Three</div>
+    </div>
+
+    <!-- Image element -->
+    <img>
+
+    <!-- Link element with a class -->
+    <link class="myLink">
+    </link>
+
+    <!-- JavaScript files -->
+    <script src="module.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

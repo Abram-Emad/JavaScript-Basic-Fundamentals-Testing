@@ -1,0 +1,16 @@
+{
+    "Name": "Abram",
+    "Age": 21,
+    "Skills": {"frontend": ["HTML", "CSS", "JavaScript"],
+    "backend": ["JavaScript", "Node js"]
+    },
+    "SkillsProgress": {
+        "HTML": 100,
+        "CSS": 90,
+        "JavaScript": 70
+    },
+    "Country": {
+        "Egypt": "Minya",
+        "USA": "California"
+    }
+}

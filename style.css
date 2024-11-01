@@ -1,0 +1,103 @@
+body {
+    width: 5000px;
+    height: 3000px
+}
+
+.up {
+    position: fixed;
+    background-color: #2196f3;
+    border: none;
+    color: #fff;
+    padding: 9px;
+    border-radius: 58px;
+    bottom: 10px;
+    right: 10px;
+    font-weight: bold;
+    display: none;
+    cursor: pointer
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    background-color: #ddd;
+    padding: 20px;
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between
+}
+
+ul li {
+    width: 60px;
+    height: 60px;
+    border: 2px solid transparent;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+ul li.active,
+ul li:hover {
+    opacity: 1
+}
+
+ul li:first-child {
+    background-color: red
+}
+
+ul li:nth-child(2) {
+    background-color: green
+}
+
+ul li:nth-child(3) {
+    background-color: blue
+}
+
+ul li:nth-child(4) {
+    background-color: black
+}
+
+.experiment {
+    background-color: red;
+    width: 600px;
+    height: 300px
+}
+
+.form,
+.tasks {
+    background-color: #ddd;
+    padding: 19px;
+    margin: 19px;
+    border-radius: 10px;
+    width: 257px
+}
+
+input.input,
+input.add,
+.delete {
+    border: 1px solid #eee;
+    padding: 9px;
+    border-radius: 8px
+}
+
+input.add,
+.delete {
+    cursor: pointer;
+    color: #fff;
+    background-color: #2da5da
+}
+
+p.task {
+    background: #fff;
+    padding: 14px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex
+}
+
+p.task.done {
+    opacity: 0.5
+}
